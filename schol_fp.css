@@ -1,0 +1,59 @@
+<style>
+		/*head border..*/
+	body {
+			margin: 0;
+		}
+		/*head border desiging....*/
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+		/*link margin....*/
+		li {
+			float: right;
+		}
+		/*This is for linkborder....*/
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		/*link clour change...*/
+		li a:hover:none(.active) {
+			background-color: #111;
+		}
+
+		.active {
+			background-color: #aaffff;
+		}
+	/*for division....*/
+	/*{
+	box-sizing: border-box;
+		}*/
+	.left{
+	float: left;
+	width: 30%;
+	
+
+}
+
+
+.right:after body{
+		   float: left;
+		   width: 50%;
+	//content: "";
+	display: table;
+	clear: both;
+}
+
+}
+
+	</style>
